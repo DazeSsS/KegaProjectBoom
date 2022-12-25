@@ -65,10 +65,10 @@ define gui.name_text_font = "fonts/vcrosdmonorusbyd.ttf"
 define gui.interface_text_font = "DejaVuSans.ttf"
 
 ## Размер нормального текста диалога.
-define gui.text_size = 33
+define gui.text_size = 28
 
 ## Размер имён персонажей.
-define gui.name_text_size = 42
+define gui.name_text_size = 36
 
 ## Размер текста в пользовательском интерфейсе.
 define gui.interface_text_size = 33
@@ -106,7 +106,7 @@ define gui.textbox_yalign = 1.0
 ## Это могут быть целые значения в пикселях слева и сверху от начала окна или
 ## процентное отношение, например, 0.5 для центрирования.
 define gui.name_xpos = 360
-define gui.name_ypos = 10
+define gui.name_ypos = 15
 
 ## Горизонтальное выравнивание имени персонажа. Это может быть 0.0 для
 ## левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного
@@ -131,7 +131,7 @@ define gui.namebox_tile = False
 ## значения в пикселях слева и сверху от текстового окна или процентное
 ## отношение, например, 0.5 для центрирования.
 define gui.dialogue_xpos = 402
-define gui.dialogue_ypos = 70
+define gui.dialogue_ypos = 72
 
 ## Максимальная ширина текста диалога в пикселях.
 define gui.dialogue_width = 1116

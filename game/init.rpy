@@ -2,19 +2,22 @@
 define NOTICE = "это в дальнейшем отразится на сюжете"
 
 # персонажи
-define s = Character('Саша', color="#2774ee", image="sanya")
+define s = Character('Саша', color="#5e9cff", image="sanya")
 define t = Character('Екатерина Петровна', color="#eca625", image="teacher")
 define d = Character('Дима', color="#0fdcf3", image="dima")
-define v = Character('Голос из класса', color="#976eba")
 define i = Character('Умный помощник', color="#a8e1ff")
+define m = Character('Мама', color="#f95858")
+define e = Character('Ева', color="#ecff59")
 
 # переменные
 define intellect = 0
 define charisma = 0
 define bad_point = 0
-
+define funny_jokes = 0
+define empty = 0
 define task_solved = False
 define first_try = True
+define school_info = True
 
 # спрайты
 image teacher glitched:
