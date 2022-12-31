@@ -56,19 +56,19 @@ define gui.interface_text_color = '#ffffff'
 ## Шрифты и их размеры #########################################################
 
 ## Шрифт, используемый внутриигровым текстом.
-define gui.text_font = "fonts/vcrosdmonorusbyd.ttf"
+define gui.text_font = "fonts/Golos UI_Bold.ttf"
 
 ## Шрифт, используемый именами персонажей.
-define gui.name_text_font = "fonts/vcrosdmonorusbyd.ttf"
+define gui.name_text_font = "fonts/Tektur-SemiBold.ttf"
 
 ## Шрифт, используемый текстом вне игры.
 define gui.interface_text_font = "DejaVuSans.ttf"
 
 ## Размер нормального текста диалога.
-define gui.text_size = 28
+define gui.text_size = 32
 
 ## Размер имён персонажей.
-define gui.name_text_size = 36
+define gui.name_text_size = 40
 
 ## Размер текста в пользовательском интерфейсе.
 define gui.interface_text_size = 33
@@ -106,7 +106,7 @@ define gui.textbox_yalign = 1.0
 ## Это могут быть целые значения в пикселях слева и сверху от начала окна или
 ## процентное отношение, например, 0.5 для центрирования.
 define gui.name_xpos = 360
-define gui.name_ypos = 15
+define gui.name_ypos = 12
 
 ## Горизонтальное выравнивание имени персонажа. Это может быть 0.0 для
 ## левоориентированного, 0.5 для центрированного и 1.0 для правоориентированного
@@ -131,7 +131,7 @@ define gui.namebox_tile = False
 ## значения в пикселях слева и сверху от текстового окна или процентное
 ## отношение, например, 0.5 для центрирования.
 define gui.dialogue_xpos = 402
-define gui.dialogue_ypos = 72
+define gui.dialogue_ypos = 73
 
 ## Максимальная ширина текста диалога в пикселях.
 define gui.dialogue_width = 1116
@@ -369,11 +369,11 @@ define gui.nvl_borders = Borders(0, 15, 0, 30)
 
 ## Максимальное число показываемых строк в режиме NVL. Когда количество строчек
 ## начинает превышать это значение, старые строчки очищаются.
-define gui.nvl_list_length = 6
+define gui.nvl_list_length = 20
 
 ## Высота доступных строчек в режиме NVL. Установите на None, чтобы строчки
 ## динамически регулировали свою высоту.
-define gui.nvl_height = 173
+define gui.nvl_height = None
 
 ## Интервал между строчками в режиме NVL, если gui.nvl_height имеет значение
 ## None, а также между строчками и меню режима NVL.
@@ -381,14 +381,14 @@ define gui.nvl_spacing = 15
 
 ## Местоположение, ширина и выравнивание заголовка, показывающего имя говорящего
 ## персонажа.
-define gui.nvl_name_xpos = 645
+define gui.nvl_name_xpos = 0
 define gui.nvl_name_ypos = 0
 define gui.nvl_name_width = 225
 define gui.nvl_name_xalign = 1.0
 
 ## Местоположение, ширина и выравнивание диалогового текста.
-define gui.nvl_text_xpos = 675
-define gui.nvl_text_ypos = 12
+define gui.nvl_text_xpos = 585
+define gui.nvl_text_ypos = 300
 define gui.nvl_text_width = 885
 define gui.nvl_text_xalign = 0.0
 
